@@ -1,0 +1,26 @@
+{
+  "exp_name": "inferrence",
+
+  "loadmodel_dir": "/content/drive/MyDrive/JMONSEL-Inverse/fine_tuned_model/checkpoint/",
+
+  "num_epochs": 100,
+  "batch_size": 10,
+
+  "fc_input_dim": 8192,
+  "fc_hidden_dim": 4096,
+  "fc_output_dim": 4096,
+
+  "im_h": 64,
+  "im_w": 64,
+
+  "data_dir": "/content/drive/MyDrive/JMONSEL-Inverse/data",
+  "inference_input": "test_input.mat",
+  "inference_target_output": "test_x_real.mat",
+
+  "save_inference_output":"train64.mat",
+
+  "learning_rate": 0.002
+
+}
+
+
