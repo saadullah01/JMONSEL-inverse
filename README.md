@@ -12,3 +12,7 @@ Run the following command to create inferrence of the AUTOMAP output
 ```
 python AUTOMAP/automap_main_inference.py -c AUTOMAP/configs/inference_64x64_ex.json
 ```
+
+## JMONSEL-CODE
+* More information about JMONSEL along with permission for it's code is given [JMONSEL-NIST] https://www.nist.gov/programs-projects/scanning-electron-microscopy
+* The folder jmonsel-code contains the output files of JMONSEL along with the code used to define the materials Silicon and Glassy Carbon. The code-file image-constructor.py was used to extract the information out of the textfiles generated as output of JMONSEL and converted it to a numpy matrix used for further processing.  
